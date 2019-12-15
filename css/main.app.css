@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+  margin: 0;
+  position: absolute;
+  height: 700px;
+  width: 100%;
+  font-family: ubuntu;
+}
+
+#background {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://cdnsite2.assist.ro/sites/all/themes/assist/img/backgrounds/testimonials_bg.png) repeat;
+  background-color: #095396;
+}
+
+
+/*Vue*/
+
+#vue {
+  margin: auto;
+  margin-top: 128px;
+  width: 300px;
+  height: 326px;
+  padding: 54px 36px 112px;
+  background-color: whitesmoke;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 16px;
+  box-shadow: 0 4px 64px white;
+}
+
+#vue h1 {
+  text-shadow: 0 1px 6px cyan;
+}
+
+#vue p#darkblue {
+  margin-top: 42px;
+  margin-bottom: 24px;
+  text-shadow: 0 0 60px darkblue;
+}
+
+#vue #bar {
+  margin-top: 38px;
+  margin-bottom: 40px;
+  height: 1px;
+  background-color: black
+}
+
+#vue label {
+  display: block;
+  margin-bottom: 32px;
+  font-weight: bold;
+  text-align: center
+}
+
+#vue input {
+  width: 200px;
+  padding: 4px;
+  border: 2px solid darkblue;
+  border-radius: 8px;
+}
+
+#vue button {
+  cursor: pointer;
+}

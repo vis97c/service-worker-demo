@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-control" content="public" max-age="31536000">
+    <meta http-equiv="Content-Language" content="es">
+
+    <!-- inicia SEO -->
+    <title>NOMBRE_DEL_SITIO | Inicio</title>
+    <link type="image/ico" rel="icon" href="/favicon.ico">
+    <link rel="canonical" href="https://www.DOMAIN/">
+    <meta name="description" content="DESCRIPCION">
+    <meta name="keywords" content="TAGS">
+    <!-- inicia TWITTER CARD -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="NOMBRE_DEL_SITIO | Inicio">
+    <meta name="twitter:description" content="DESCRIPCION">
+    <meta name="twitter:image" content="https://www.DOMAIN/images/THUMBNAIL.EXTENSION">
+    <meta name="twitter:creator" content="@EMPRESA">
+    <!-- termina TWITTER CARD -->
+    <!-- inicia OPEN GRAPH -->
+    <meta property="og:site_name" content="NOMBRE_DEL_SITIO">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.DOMAIN">
+    <meta property="og:title" content="NOMBRE_DEL_SITIO | Inicio">
+    <meta property="og:description" content="DESCRIPCION">
+    <meta property="og:image" content="https://www.DOMAIN/images/THUMBNAIL.EXTENSION">
+    <!-- termina OPEN GRAPH -->
+    <!-- termina SEO -->
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="hsl(197, 100%, 50%)">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="hsl(197, 100%, 50%)">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+
+    <!-- For further reference on resource hints see https://crenshaw.dev/preconnect-resource-hint-crossorigin-attribute -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <!-- Main font @GoogleFonts -->
+    <link rel="stylesheet" href="FUENTE_1">
+
+    <!-- For further reference on resource hints see https://crenshaw.dev/preconnect-resource-hint-crossorigin-attribute -->
+    <link rel="dns-prefetch" href="https://use.fontawesome.com/">
+    <link rel="preconnect" href="https://use.fontawesome.com/">
+    <link rel="preconnect" href="https://use.fontawesome.com/" crossorigin>
+    <!-- Icons @FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!-- Custom web app styles -->
+    <link type="text/css" rel="stylesheet" href="/css/main.css">
+
+	<!-- pwa loader -->
+	<script type="text/javascript" src="/js/pwa-loader.js"></script>
+</head>
+
+<body>
+    <noscript>
+        <style type="text/css">
+            .noscript {
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                padding: 100px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                -ms-flex-flow: row nowrap;
+                flex-flow: row nowrap;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+
+            .noscript strong {
+                max-width: 80vh;
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+        <div class="noscript">
+            <strong>Lo sentimos pero esta pagina requiere javascript para funcionar, por favor activalo o usa un
+                navegador compatible.</strong>
+        </div>
+    </noscript>
+    <div id="appex">
+        <h1>{{text}}</h1>
+        <div v-html="html"></div>
+        <bar></bar>
+        <hello></hello>
+        <button v-on:click="sayHello">Try me</button>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+    <script type="text/javascript" src="/js/main.app.js"></script>
+</body>
+
+</html>

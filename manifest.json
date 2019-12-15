@@ -1,0 +1,20 @@
+{
+    "dir": "ltr",
+    "lang": "es",
+    "name": "Your full app name",
+    "short_name": "App alias",
+    "start_url": "/index.html",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#00b6ff",
+    "description": "Your app description.",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/images/logo.png",
+            "sizes": "200x200",
+            "type": "image/png"
+        }
+    ]
+}
